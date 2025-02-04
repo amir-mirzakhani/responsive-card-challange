@@ -12,9 +12,9 @@ This project showcases testimonials from graduates of a bootcamp program. The pa
 ![Desktop Preview](./images/desktop-preview.jpg)
 
 ## Demo
-Check out the [demo](<your_demo_link>)
+Check out the [demo](<https://amir-mirzakhani.github.io/responsive-card-challange/>)
 
 ## Setup Instructions
 1. Clone the repository:
    ```sh
-   git clone <repository_link>
+   git clone <https://github.com/amir-mirzakhani/responsive-card-challange>
