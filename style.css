@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(236, 242, 248) !important;
+}
+main {
+  width: 80%;
+  margin: 1% 0;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-box {
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 25px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.information {
+  display: flex;
+  align-items: center;
+}
+.information img {
+  border-radius: 50%;
+  width: 35px;
+  margin: 0 15px 0 0;
+}
+.information div {
+  line-height: 1;
+}
+.information div p {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+.information div span {
+  color: hsl(0, 0%, 81%);
+  font-size: 12px;
+  font-weight: bold;
+}
+.content-box h4 {
+  margin: 20px 0;
+  font-weight: 600;
+}
+.content-box p {
+  font-size: 15px;
+}
+#box1 {
+  background-color: hsl(263, 55%, 52%);
+  color: white;
+}
+#box1 p {
+  color: hsl(219, 29%, 14%);
+}
+#box2 {
+  background-color: hsl(217, 19%, 35%);
+  color: white;
+}
+#box2 p {
+  color: rgba(255, 255, 255, 0.778);
+}
+#box4 {
+  background-color: hsl(219, 29%, 14%);
+  color: white;
+}
+#box5 {
+  height: auto;
+}
+@media (max-width: 1251px) {
+  section {
+    flex-direction: column;
+  }
+}
